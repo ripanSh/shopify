@@ -12,5 +12,5 @@ var element = document.getElementById("shopify-section-product-template");
      var ref = document.querySelector('div.shopify-payment-button');
      insertAfter(newEl, ref);
  } else{
-     alert('Element does not exist!');
+     
  }
