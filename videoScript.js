@@ -1,3 +1,4 @@
+console.log("included");
 var element = document.getElementById("shopify-section-product-template");
  
 //If it isn't "undefined" and it isn't "null", then it exists.
