@@ -9,7 +9,7 @@ var element = document.getElementById("shopify-section-product-template");
 
  //If it isn't "undefined" and it isn't "null", then it exists.
  if(typeof(element) != 'undefined' && element != null){
-     var ref = document.querySelector('div.shopify-payment-button__button');
+     var ref = document.querySelector('div.shopify-payment-button');
      insertAfter(newEl, ref);
  } else{
      alert('Element does not exist!');
