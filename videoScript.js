@@ -1,4 +1,3 @@
-<script type="text/javascript">
  console.log("included");
  var element = document.getElementById("shopify-section-product-template");
 
@@ -8,4 +7,3 @@
  } else{
      alert('Element does not exist!');
  }
-</script>
